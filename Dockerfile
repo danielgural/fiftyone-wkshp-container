@@ -23,6 +23,7 @@ RUN pip --no-cache-dir install -q -U torch \
         shapely \
         rasterio \
         ultralytics \
+        umap-learn \
         InstructorEmbedding
 
 COPY load_data_and_models.py /tmp/
