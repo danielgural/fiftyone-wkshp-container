@@ -8,7 +8,7 @@ caltech101_dataset = foz.load_zoo_dataset("caltech101")
 # quickstart_data.persistent = True
 # caltech101_dataset.persistent = True
 
-model = foz.load_zoo_model("open-clip-torch")
-model = foz.load_zoo_model("retinanet-resnet50-fpn-coco-torch")
-model = foz.load_zoo_model("yolo11s-coco-torch")
+modelo = foz.load_zoo_model("open-clip-torch")
+modelr = foz.load_zoo_model("retinanet-resnet50-fpn-coco-torch")
+modely = foz.load_zoo_model("yolo11s-coco-torch")
 
