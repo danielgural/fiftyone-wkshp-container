@@ -24,7 +24,8 @@ RUN pip --no-cache-dir install -q -U torch \
         rasterio \
         ultralytics \
         umap-learn \
-        InstructorEmbedding
+        InstructorEmbedding \
+        transformers
 
 COPY load_data_and_models.py /tmp/
 
