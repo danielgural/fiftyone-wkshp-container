@@ -11,4 +11,6 @@ caltech101_dataset = foz.load_zoo_dataset("caltech101")
 modelo = foz.load_zoo_model("open-clip-torch")
 modelr = foz.load_zoo_model("retinanet-resnet50-fpn-coco-torch")
 modely = foz.load_zoo_model("yolo11s-coco-torch")
+modelresx = foz.load_zoo_model("resnext50-32x4d-imagenet-torch")
+modelresnet = foz.load_zoo_model("resnet50-imagenet-torch")
 
