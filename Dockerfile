@@ -18,14 +18,18 @@ RUN chmod 744 /opt/.fiftyone-venv/bin/activate && bash /opt/.fiftyone-venv/bin/a
 
 RUN pip --no-cache-dir install -q -U torch \
         torchvision \
-        open_clip_torch \
+        transformers \
         pycocotools \
-        shapely \
-        rasterio \
+        pillow \
         ultralytics \
         umap-learn \
-        InstructorEmbedding \
-        transformers
+        datasets \
+        evaluate \
+        accelerate \
+        optimum \
+        onnx \
+        onnxruntime \
+        timm
 
 COPY load_data_and_models.py /tmp/
 
